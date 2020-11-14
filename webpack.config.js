@@ -12,7 +12,7 @@ module.exports = {
 
 	output: {
 		filename: "[name].js",
-		path: path.resolve(__dirname, "build"),
+		path: path.resolve(__dirname, "docs"),
 	},
 
 	plugins: [
@@ -78,7 +78,7 @@ module.exports = {
 
 	// Development server
 	devServer: {
-		contentBase: path.join(__dirname, "build"),
+		contentBase: path.join(__dirname, "docs"),
 		port: 4000,
 		writeToDisk: true,
 	},
