@@ -1,0 +1,10 @@
+container {
+	width: 60%;
+	/* height: 600px; */
+	background-color: var(--light-greenish);
+	padding: 2rem 0;
+
+	@media (max-width: 800px) {
+		width: 100%;
+	}
+}

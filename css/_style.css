@@ -30,3 +30,6 @@ body {
 
 @import "./header.css";
 @import "./color-var.css";
+@import "./main.css";
+@import "./aside.css";
+@import "./content.css";

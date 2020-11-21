@@ -1,0 +1,14 @@
+aside {
+	display: block;
+	width: 40%;
+	background-color: #fff;
+  padding: 2rem 0;
+  
+  @media (max-width: 800px) {
+		width: 100%;
+	}
+}
+
+.aside__container {
+	width: 100%;
+}
