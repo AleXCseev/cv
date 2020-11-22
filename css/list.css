@@ -1,0 +1,15 @@
+.list {
+	list-style: none;
+	padding-left: 1rem;
+	margin-bottom: 1rem;
+}
+
+.list__item {
+	font-size: 1.5rem;
+	color: var(--midnight-blue);
+}
+
+.list__item:before {
+	content: "- ";
+	color: var(--midnight-blue);
+}
